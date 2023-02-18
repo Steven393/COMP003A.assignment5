@@ -55,7 +55,7 @@ namespace COMP003A.Assignment5
         static void CharacterInfo(string name, int birthYear)
         {
             int age = AgeCalculator(birthYear);
-            Console.WriteLine($"{name} is {age} years old.");
+            Console.WriteLine($"{name} turns {age} this year!");
         }
     }
 }
