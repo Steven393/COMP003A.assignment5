@@ -2,7 +2,6 @@
  * Author: Steven Gonzalez
  * Course: COMP-003A
  * Purpose: COMP003A.Assignment5
- * Reference: \
  */
 
 using System;
