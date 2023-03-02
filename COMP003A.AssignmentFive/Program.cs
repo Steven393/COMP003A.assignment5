@@ -35,6 +35,11 @@ namespace COMP003A.Assignment5
             Console.WriteLine(message);
             Console.WriteLine(new string('*', 50));
         }
+         /// <summary>
+        /// Method for providing a convenient way to output a message with a decorative separator in a console application.
+        /// </summary>
+        /// <param name="inputCharacter"></param>
+        /// <param name="size"></param>
         static void IsoscelesTriangleBuilder(char inputCharacter, int size)
         {
             for (int i = 1; i <= size; i++)
@@ -47,11 +52,21 @@ namespace COMP003A.Assignment5
                 Console.WriteLine(new string(inputCharacter, i));
             }
         }
+         /// <summary>
+        /// method that builds and outputs an isosceles triangle made of inputCharacters characters with a base od size
+        /// </summary>
+        /// <param name="year"></param>
+        /// <returns></returns>
         static int AgeCalculator(int year)
         {
             int currentYear = DateTime.Now.Year;
             return currentYear - year;
         }
+         /// <summary>
+        /// method that calculates the age of a person or the number of years since some event occurred based on a given year aprameter and the current year.
+        /// </summary>
+        /// <param name="name"></param>
+        /// <param name="birthYear"></param>
         static void CharacterInfo(string name, int birthYear)
         {
             int age = AgeCalculator(birthYear);
